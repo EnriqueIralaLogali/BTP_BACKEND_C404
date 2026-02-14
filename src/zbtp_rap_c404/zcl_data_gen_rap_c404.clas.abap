@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_data_gen_rap_c404 IMPLEMENTATION.
+CLASS ZCL_DATA_GEN_RAP_C404 IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -91,5 +92,4 @@ CLASS zcl_data_gen_rap_c404 IMPLEMENTATION.
               trvl~last_changed_at    AS local_last_changed_at ).
 
   ENDMETHOD.
-
 ENDCLASS.

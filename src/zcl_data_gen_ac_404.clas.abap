@@ -8,10 +8,12 @@ class zcl_data_gen_ac_404 definition
 
   protected section.
   private section.
-endclass.
+ENDCLASS.
 
 
-class zcl_data_gen_ac_404 implementation.
+
+CLASS ZCL_DATA_GEN_AC_404 IMPLEMENTATION.
+
 
   method if_oo_adt_classrun~main.
 
@@ -209,5 +211,4 @@ class zcl_data_gen_ac_404 implementation.
     out->write( 'DONE!' ).
 
   endmethod.
-
-endclass.
+ENDCLASS.
